@@ -1,5 +1,5 @@
 import React from 'react'
-import * as S from './styles'
+import * as S from 'styles/login'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import { schemaLogin } from 'Validators/SingInValidator'
