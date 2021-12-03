@@ -17,11 +17,14 @@
     ]
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.8.4",
     "@material-ui/icons": "^4.11.2",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "styled-components": "^5.3.0"
+    "react-hook-form": "^7.20.5",
+    "styled-components": "^5.3.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.10.1",
