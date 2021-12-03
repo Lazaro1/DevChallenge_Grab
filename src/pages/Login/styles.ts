@@ -20,7 +20,8 @@ export const ContainerLeft = styled.div`
 
   @media (max-width: 768px) {
     background-color: ${({ theme }) => theme.blue};
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
   }
 `
 
@@ -75,6 +76,8 @@ export const input = styled.input`
 `
 
 export const Button = styled.button`
+  position: relative;
+
   min-width: 45rem;
   height: 6rem;
   border-radius: 30px;
@@ -123,6 +126,10 @@ export const ContainerRight = styled.div`
 
 export const backgroundImage = styled.img`
   margin-left: -30rem;
+
+  @media (max-width: 1138px) {
+    display: flex;
+  }
 `
 
 export const warningLabel = styled(Label)`
